@@ -24,13 +24,17 @@ Data analyses for Norway were stored and created within the service for sensitiv
 ### Definition chronic medical conditions
 Within the Remote Access Research Environment of Statistics Netherlands and service for sensitive data Norway, chronic medical conditions were defined on the basis of previous hospital admission in the five years preceding the indexdate (either January 1st 2020, COVID-19 hospitalization, or positive COVID-19 reporting). An overview of specific ICD-10 codes used to define risk based on chronic medical conditions can be found in Supplement Table 1-3. R-codes available on Github. Risk classifications include: 
 
-> **European risk classification** Obtained from ‘Core protocol for ECDC studies of COVID-19 vaccine effectiveness against hospitalization with Severe Acute Respiratory Infection, laboratory-confirmed with SARS-CoV-2 or with seasonal influenza – Version 3.0’ from February 20249. This classification contains a list of ICD-10 codes referring to chronic medical conditions. In this classification, we refer to mandatory and optional conditions as high- and moderate-risk, respectively. 
+> **European risk classification** Obtained from ‘Core protocol for ECDC studies of COVID-19 vaccine effectiveness against hospitalization with Severe Acute Respiratory Infection, laboratory-confirmed with SARS-CoV-2 or with seasonal influenza – Version 3.0’ from February 20249. This classification contains a list of ICD-10 codes referring to chronic medical conditions. In this classification, we refer to mandatory and optional conditions as high- and moderate-risk, respectively.
+> 
 > **Dutch risk classification**	Obtained from the ‘Adviesnota Vaststelling volwassen medische risicogroepen COVID-19-vaccinatiecampagne’ (‘Advice note Establishing adult medical risk groups for COVID-19 vaccination campaign’ in English). This classification contains a list of chronic medical conditions defined as either high- or moderate-risk.7 Manuscript author and medical doctor (AdB) converted each medical condition to the relevant ICD-10 code(s). This was verified by IW, with no discrepancies found.
+> 
 > **Norwegian risk classification**	Obtained from the Norwegian Health Institute in July 20238. This classification contains a list of chronic medical conditions with corresponding ICPC-2 and ICD-10 codes as either high-risk or increased-risk, which we renamed as high- and moderate-risk, respectively for consistency with the other classifications. An individual was assigned to high- or moderate-risk if either the relevant ICPC-2 or ICD-10 diagnostic code was present. 
 
 References: 
 > Norwegian Institute of Public Health. Coronavirus vaccine. https://www.fhi.no/en/id/corona/coronavirus-immunisation-programme/coronavirus-vaccine/#about-risk-groups-and-childrenadolescents-with-underlying-conditions (2023).
+> 
 >European Centre for Disease Prevention and Control. Core Protocol for ECDC VEBIS Studies of COVID-19 Vaccine Effectiveness against Hospitalisation with Severe Acute Respiratory Infection, Laboratory-Confirmed with SARS-CoV-2 or with Seasonal Influenza - Version https://www.ecdc.europa.eu/en/publications-data/core-protocol-ecdc-studies-covid-19-vaccine-effectiveness-3 (2024).
+> 
 >Rijksinstituut voor Volksgezondheid en Milieu. The National Immunisation Programme in the Netherlands. Surveillance and Developments in 2021-2022. https://rivm.openrepository.com/handle/10029/625373 (2021).
 
 
@@ -42,13 +46,12 @@ COVID-19 Hospitalization was defined as hospital admission for at least 24 hours
 
 ### Definition COVID-19 death
 Death due to COVID-19 was defined as individuals with either i) COVID-19 listed as the primary cause of death (ICD-10 codes U071, U072, or U109 or ii) with a COVID-19 hospitalization in the 7 days preceding date of death. In the Dutch data registry, only the second definition was used, because cause of death was not available in death registry. 
-![image](https://github.com/user-attachments/assets/166fdfca-ba3b-45d2-a14c-d03b16d9456b)
 
 
-
+### Overview Databases
 The following databases were used (a link to the description of the data is provided):
 
-### Population Registry (provided by Statistics Netherlands)
+## Population Registry (provided by Statistics Netherlands)
 
 This dataset contains all individuals registered in the Netherlands. The following information was extracted: age.
 For more detailed information: 
