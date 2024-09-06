@@ -1,6 +1,6 @@
 # COVID-19-risk-classifications
 
-## DOI for this GitHub repository
+## DOI Preprint medRxiv
 doi: http://doi.org/xxx/zenodo.xxx
 
 ## PROJECT OVERVIEW
