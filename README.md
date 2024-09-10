@@ -1,7 +1,7 @@
 # COVID-19-risk-classifications
 
 ## DOI Preprint medRxiv
-doi: http://doi.org/xxx/zenodo.xxx
+doi: https://doi.org/10.1101/2024.09.06.24313189
 
 ## PROJECT OVERVIEW
 CoviCron (Covid-19 and Chronic illness interactions in transmission dynamics) aims to project SARS-CoV-2 transmission dynamics and evaluate the impact of public health interventions in the population of the Netherlands stratified by age and risk due to chronic conditions. We are extending an existing age-stratified mathematical model previously validated against real COVID-19 data to include stratification by risk due to chronic conditions.
